@@ -22,10 +22,10 @@ public class MainMenu {
         System.out.println("Bem vindo ao gerenciador de boards, escolha a opção desejada");
         var option = -1;
         while (true){
-            System.out.println("Criar um novo board");
-            System.out.println("Selecionar um board existente");
-            System.out.println("Excruir um board");
-            System.out.println("sair");
+            System.out.println("1 - Criar um novo board");
+            System.out.println("2 - Selecionar um board existente");
+            System.out.println("3 - Excruir um board");
+            System.out.println("4 - sair");
             option = scanner.nextInt();
             switch (option){
                 case 1 -> createboard();

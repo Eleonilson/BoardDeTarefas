@@ -1,39 +1,67 @@
-abr. 08, 2025 11:25:18 AM liquibase.changelog
+abr. 09, 2025 2:56:16 AM liquibase.changelog
 INFO: Reading resource: db/changelog/migrations/db.changelog-202504010250.sql
-abr. 08, 2025 11:25:18 AM liquibase.changelog
+abr. 09, 2025 2:56:16 AM liquibase.changelog
 INFO: Reading resource: db/changelog/migrations/db.changelog-202504081012.sql
-abr. 08, 2025 11:25:18 AM liquibase.changelog
+abr. 09, 2025 2:56:16 AM liquibase.changelog
 INFO: Reading resource: db/changelog/migrations/db.changelog-202504081031.sql
-abr. 08, 2025 11:25:18 AM liquibase.changelog
+abr. 09, 2025 2:56:16 AM liquibase.changelog
 INFO: Reading resource: db/changelog/migrations/db.changelog-202504081036.sql
-abr. 08, 2025 11:25:19 AM liquibase.changelog
+abr. 09, 2025 2:56:16 AM liquibase.changelog
+INFO: Creating database history table with name: board.DATABASECHANGELOG
+abr. 09, 2025 2:56:17 AM liquibase.changelog
 INFO: Reading from board.DATABASECHANGELOG
-Database is up to date, no changesets to execute
-abr. 08, 2025 11:25:19 AM liquibase.changelog
+abr. 09, 2025 2:56:17 AM liquibase.lockservice
+INFO: Successfully acquired change log lock
+abr. 09, 2025 2:56:17 AM liquibase.command
+INFO: Using deploymentId: 4178177275
+abr. 09, 2025 2:56:17 AM liquibase.changelog
 INFO: Reading from board.DATABASECHANGELOG
+Running Changeset: db/changelog/migrations/db.changelog-202504010250.sql::202504010250::junior
+abr. 09, 2025 2:56:17 AM liquibase.changelog
+INFO: Custom SQL executed
+abr. 09, 2025 2:56:17 AM liquibase.changelog
+INFO: ChangeSet db/changelog/migrations/db.changelog-202504010250.sql::202504010250::junior ran successfully in 104ms
+Running Changeset: db/changelog/migrations/db.changelog-202504081012.sql::202504081012::junior
+abr. 09, 2025 2:56:17 AM liquibase.changelog
+INFO: Custom SQL executed
+abr. 09, 2025 2:56:17 AM liquibase.changelog
+INFO: ChangeSet db/changelog/migrations/db.changelog-202504081012.sql::202504081012::junior ran successfully in 192ms
+Running Changeset: db/changelog/migrations/db.changelog-202504081031.sql::202504081031::junior
+abr. 09, 2025 2:56:17 AM liquibase.changelog
+INFO: Custom SQL executed
+abr. 09, 2025 2:56:17 AM liquibase.changelog
+INFO: ChangeSet db/changelog/migrations/db.changelog-202504081031.sql::202504081031::junior ran successfully in 231ms
+Running Changeset: db/changelog/migrations/db.changelog-202504081036.sql::202504081036::junior
+abr. 09, 2025 2:56:18 AM liquibase.changelog
+INFO: Custom SQL executed
+abr. 09, 2025 2:56:18 AM liquibase.changelog
+INFO: ChangeSet db/changelog/migrations/db.changelog-202504081036.sql::202504081036::junior ran successfully in 113ms
 
 UPDATE SUMMARY
-Run:                          0
-Previously run:               4
+Run:                          4
+Previously run:               0
 Filtered out:                 0
 -------------------------------
 Total change sets:            4
 
-abr. 08, 2025 11:25:19 AM liquibase.util
+abr. 09, 2025 2:56:18 AM liquibase.util
 INFO: UPDATE SUMMARY
-abr. 08, 2025 11:25:19 AM liquibase.util
-INFO: Run:                          0
-abr. 08, 2025 11:25:19 AM liquibase.util
-INFO: Previously run:               4
-abr. 08, 2025 11:25:19 AM liquibase.util
+abr. 09, 2025 2:56:18 AM liquibase.util
+INFO: Run:                          4
+abr. 09, 2025 2:56:18 AM liquibase.util
+INFO: Previously run:               0
+abr. 09, 2025 2:56:18 AM liquibase.util
 INFO: Filtered out:                 0
-abr. 08, 2025 11:25:19 AM liquibase.util
+abr. 09, 2025 2:56:18 AM liquibase.util
 INFO: -------------------------------
-abr. 08, 2025 11:25:19 AM liquibase.util
+abr. 09, 2025 2:56:18 AM liquibase.util
 INFO: Total change sets:            4
-abr. 08, 2025 11:25:19 AM liquibase.util
+abr. 09, 2025 2:56:18 AM liquibase.util
 INFO: Update summary generated
-abr. 08, 2025 11:25:19 AM liquibase.lockservice
+abr. 09, 2025 2:56:18 AM liquibase.command
+INFO: Update command completed successfully.
+Liquibase: Update has been successful. Rows affected: 4
+abr. 09, 2025 2:56:18 AM liquibase.lockservice
 INFO: Successfully released change log lock
-abr. 08, 2025 11:25:19 AM liquibase.command
+abr. 09, 2025 2:56:18 AM liquibase.command
 INFO: Command execution complete
