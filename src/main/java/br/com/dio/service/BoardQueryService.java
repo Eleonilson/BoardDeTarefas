@@ -17,7 +17,7 @@ public class BoardQueryService {
     public Optional<BoardEntity> findById(final long id) throws SQLException {
         var dao = new BoardDAO(connection);
         var boardColumnDAO = new BoardColumnDAO(connection);
-        var optional = dao.findByid(id);
+        var optional = dao.findById(id);
         if (optional.isPresent()){
             var entity = optional.get();
             entity.setBoardColumns(boardColumnDAO.findByBoardId(entity.getId()));
